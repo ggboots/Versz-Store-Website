@@ -1,0 +1,51 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+/* Title Container */
+
+.title-container {
+  display: flex;
+  width: 98vw;
+  height: 8.5vh;
+  margin: 0;
+  padding: 0.2em;
+}
+.main-container {
+  background-color: black;
+  display: flex;
+  width: 98vw;
+  height: 80vh;
+  margin: 0;
+  padding: 0.2em;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.card {
+  padding: 2em;
+}
+
+.card-model {
+  padding: 3em;
+}
+
+/*  */
+
+.transition-button {
+  height: 12.5%;
+}
+@media (max-width: 767px) {
+}
