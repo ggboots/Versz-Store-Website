@@ -46,8 +46,8 @@
   justify-self: center;
   padding-left: 22px;
   padding-right:12px;
-  max-width: auto;
-  height:80%;
+  max-width: 142px;
+  height:95%;
 }
 
 .title-icon{
@@ -135,6 +135,23 @@ button{
   height: 12.5%;
 }
 
+.model-title{
+  font-family: "Syne", sans-serif;
+
+  color: #d5cdd5;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -25%);
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 2.85rem;
+  font-style: bold;
+  top: 75%;
+
+}
+
 
 /* MOBILE-VIEW */
 @media (max-width: 964px) {
@@ -146,6 +163,10 @@ button{
 
   .main-container-divider{
     flex-direction: column;
+  }
+
+  .main-container{
+    height:100vh;
   }
 
   .content-container{
@@ -162,6 +183,8 @@ button{
     align-items: center;
   }
 
-
+  .card{
+    display:none;
+  }
   
 }
