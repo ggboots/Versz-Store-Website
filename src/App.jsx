@@ -1,18 +1,14 @@
-import { useState } from "react";
-import shoppingIcon from "/ShoppingIcon.png";
-import VerszLogo from "/VerszLogo.png";
 
-import socketAdapterHolder from "/Front-RenderView.jpg";
 import "./App.css";
+import "./styles/index.css";
 
-import Navbar from "./components/Navbar";
-import ProductPage from "./pages/ProductPage";
+import BioProfile from "./pages/Portfolio";
 import HomePage from "./pages/HomePage";
 
 
 function App() {
   return (
-  <HomePage/>
+  <BioProfile/>
 
 
   );

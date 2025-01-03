@@ -1,6 +1,7 @@
 import React from "react";
 
 import socketAdapterHolder from "/Front-RenderView.jpg";
+import socketAdapterHolder2 from "/Front-RenderView2.jpg";
 
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
@@ -18,21 +19,22 @@ function ProductPage() {
             <div className="content-container">
               <div className="content-image-container">
                 <img className="content-image" src={socketAdapterHolder} />
+                <img className="content-image2" src={socketAdapterHolder2} />
               </div>
-              <div>
+              <div className="mt-2">
                 <Link to="/ModelView">
                   <button>3D Model View</button>
                 </Link>
               </div>
             </div>
             <div className="description-container">
-              <div className="text-3xl mb-6 font-medium">
+              <div className="description-title">
                 Socket Adapter Holder (DIGITAL FILE ONLY)
               </div>
-              <div className="mr-6 w-5/6">
+              <div className="description-text">
                 <p className="flex text-left">
-                  Holder for Socket adapter hex bits and socket adapter, with a
-                  magnetic base to hold position inside toolbox or metal surface
+                  Holder for Socket adapter hexs bits and socket adapter, with a
+                  magnetic base to hold position inside toolbox 
                 </p>
                 <p className="flex text-left">
                   This purchase only includes digital files for you to 3D print,
@@ -42,21 +44,24 @@ function ProductPage() {
               <p className="my-2 italic"> - 1x SocketAdapterMagnetBase.stl</p>
               <p className="my-2 italic"> - 1x SocketAdapterGridfinity.stl</p>
               <p className="underline mt-2 mb-6">Refund Policy </p>
-              <div className="mt-8 w-3/4 flex justify-center">
+              <div className="checkout-button-container">
                 <a href="https://square.link/u/FSY0JvoQ">
-                  <button>Checkout</button>
+                  <button className="checkout-button">Checkout</button>
                 </a>
               </div>
               {/* <div className="stripe-button-container"><button className="bg-purple-600 text-neutral-100 font-bold "><h2 >Stripe </h2></button></div> */}
             </div>
           </div>
         </div>
-
         {/* FooterContainer  */}
         <div className="card">
+
           <p>
-            Developed by <code>Grahmn</code> 🛠️
+          <Link to="/">
+            Developed by <code>Grahm</code> 🛠️
+          </Link>
           </p>
+          
         </div>
       </>
     </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
         <img className="store-logo" src={VerszLogo} />
         </Link>
         <div className="title">
-          <h1 className="title-text text-3xl">VERSE Store</h1>
+          <h1 className="title-text">VerszDigital Store</h1>
         </div>
         <div className="title-icon-container">
 

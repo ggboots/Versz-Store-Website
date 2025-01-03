@@ -14,8 +14,7 @@ export default function WebglScene(){
 
         <>
             <orbitControls args={[camera, gl.domElement]}/>
-            <directionalLight position={[0.25,4,0.5]} intensity={2.65}/>
-
+            <directionalLight position={[0.2,6,0.5]} intensity={2.5}/>
             <Suspense>
                 <Model />
             </Suspense>

@@ -12,6 +12,6 @@ export default function Model(){
     })
 
 
-    return <primitive ref={modelRef} object={model.scene} scale={0.05}/>
+    return <primitive ref={modelRef} object={model.scene} scale={0.025}/>
 
 }

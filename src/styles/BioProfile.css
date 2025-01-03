@@ -1,0 +1,264 @@
+:root {
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      font-weight: 400;
+  
+      color-scheme: light dark;
+      color: rgba(255, 255, 255, 0.87);
+      background: rgb(41,41,41);
+
+      font-synthesis: none;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-text-size-adjust: 100%;
+  }
+
+  .syne-title {
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1;
+    font-style: normal;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .inter-text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+  }
+
+  .main-container-bioProfile {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 100vh;
+    margin: 0;
+    padding: 2em;
+    align-self: center;
+  }
+
+  .divider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bio-information-container {
+    height: 100%;
+    width: 120%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.bio-stack-container {
+  height: 100%;
+}
+
+.bio-title-container {
+  height: 32.4%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+.bio-text-container {
+  text-align: left;
+  text-wrap: wrap;
+  margin-left: 5.5rem;
+  margin-right: 5.5rem;
+}
+
+.bio-links-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 2.5rem;
+  margin-top: 4.5rem;
+}
+
+.bio-image-container {
+  height: 100%;
+  width: 80%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-spacer {
+  height: 12.5%;
+}
+
+.bio-image{
+  /* aspect-ratio: 1.25; */
+  width: 540px;
+  border-radius: 5%;
+  margin-left: 2em;
+  margin-right: 2em;
+  /* object-fit: cover; */
+}
+
+/* Links - Container */
+.bio-links-container {
+  display: flex;
+  justify-content: center;
+  left: 20px;
+}
+
+.links-container {
+  margin-right: 20px;
+}
+.link-selector {
+  display: flex;
+  flex-direction: row;
+}
+.shop-link .support-link {
+  width: 180px;
+  height: 90px;
+}
+
+.logo-image {
+  max-width: 96px;
+}
+
+.versz-button-logo{
+  height:36px;
+  width:36px;
+
+}
+
+.button-sizing{
+  width:132px;
+}
+
+.versz-button-sizing{
+  display: flex;
+  width:128px;
+  align-items: center;
+  justify-content: center;
+}
+
+.versz-button{
+  display:none;
+}
+
+@media (max-width: 1240px) {
+  .main-container-bioProfile {
+    display: flex;
+    flex-direction: column;
+    width: 98vw;
+    height: 70vh;
+    margin: 0;
+    padding: 2em;
+    align-self: center;
+  }
+
+  .divider-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .bio-information-container {
+    height: 70vh;
+    width: 100%;
+    /* background-color: brown; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bio-text-container {
+    text-align: left;
+    text-wrap: wrap;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+  }
+
+  .bio-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-bottom: 2rem;
+  }
+
+  .bio-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 0px;
+  }
+
+  .bio-image-container {
+    height: 30vh;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .bio-image{
+    width: 480px;
+  }
+
+  .contribute {
+    display: none;
+  }
+  .versz-button{
+    display:block;
+  }
+}
+
+@media (max-width: 826px) {
+  .bio-image-container {
+    display: none;
+  }
+  .button-sizing{
+    width:112px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bio-title-container {
+    height: 32.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-bottom: 4rem;
+  }
+
+  .bio-text-container {
+    text-align: left;
+    text-wrap: wrap;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+  .inter-text{
+    font-size: 1rem;
+    font-weight: 450;
+  }
+}

@@ -1,14 +1,12 @@
 # Versz Store
- - React + Vite
- - Three.js for models
- - Stripe connected for payments 
-
-
-* Basic store layout
-* button to render 3D Model
-* Stripe Payments 
 
 TODO
-- [] Connect Backend (Firebase)
-- [] Connect Payment API (Stripe)
-- [] populate product automously
+- [ ] Basic Store Layout (Homepage / Product Page / Checkout / ModelView)
+- [ ] populate product automously
+- [ ] State to identify product in checkout cart
+
+- [ ] Connect Backend (Firebase)
+- [ ] ModelView, loads model of specified product
+- [ ] Connect Payment API (Stripe)
+
+![Tech Stack](/src/assets/TechStack.png)
